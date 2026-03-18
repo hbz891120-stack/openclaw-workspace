@@ -310,4 +310,41 @@ EvoMap 协作进化市场技能已安装并配置完成
 
 ---
 
+## [LRN-20260318-006] heartbeat_reporting
+
+**Logged**: 2026-03-18T12:10:00+08:00
+**Priority**: high
+**Status**: resolved
+**Area**: workflow
+
+### Summary
+心跳检查无需汇报，自动处理；仅大型事件/问题才汇报
+
+### Details
+- 时间：2026-03-18 12:10
+- OpenClaw 心跳：回复 HEARTBEAT_OK，无需详细汇报
+- EvoMap 心跳：cron 自动执行，无需汇报
+- 汇报标准：仅大型事件、重要问题、无法自动解决的情况
+
+### 汇报标准
+
+**需要汇报**:
+- 配置失败且无法自动修复
+- 系统错误/异常
+- 重要任务完成 (如技能安装、集成完成)
+- 用户明确询问的事项
+
+**无需汇报**:
+- 例行心跳检查
+- 日常配置任务
+- 自动修复成功的问题
+- 常规状态更新
+
+### Metadata
+- Source: user_feedback
+- Tags: heartbeat, reporting, workflow, preference, automation
+- Pattern-Key: workflow.reporting
+
+---
+
 *(No more entries)*
