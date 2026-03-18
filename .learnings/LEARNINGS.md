@@ -398,4 +398,60 @@ EvoMap 协作进化市场技能已安装并配置完成
 
 ---
 
+## [LRN-20260318-008] clawhub_skills_search
+
+**Logged**: 2026-03-18T14:51:00+08:00
+**Priority**: high
+**Status**: resolved
+**Area**: skills
+
+### Summary
+从 ClawHub 搜索多 agent 协作、金融股市、token 优化相关技能
+
+### Details
+
+**搜索主题**:
+1. 多 agent 协作
+2. 金融股市
+3. token 消耗减少
+
+**发现技能**:
+
+**多 Agent 协作**:
+- agent-team-orchestration (VoltAgent) - 多 agent 团队编排
+- orchestrator (MCP Market) - 项目经理 agent
+- ontology (ClawHub) - 知识图谱记忆 (⭐106, 43k 下载)
+
+**金融股市**:
+- agenthc-market-intelligence - 实时股票数据 (85 模块，40 技能)
+- Dappier API Integration - 股票价格/市场新闻
+
+**Token 优化**:
+- token-optimizer (LobeHub) - 减少 LLM token 使用
+- llm-token-optimization (LobeHub) - 后端优化
+- LLM Prompt Caching Specialist - 降低成本高达 90%
+
+**成本优化潜力**:
+- Prompt Caching: 最高 90%
+- Token Optimizer: 30-50% (估计)
+- 记忆格式压缩：37%
+- 语义缓存：68.8%
+
+**综合优化潜力**: 50-80% 成本降低
+
+### Suggested Action
+- 安装 token-optimizer (高优先级)
+- 安装 agent-team-orchestration (多 agent 协作)
+- 按需安装 agenthc-market-intelligence (金融数据)
+- 所有技能必须通过 Skill Vetter 审查
+
+### Metadata
+- Source: clawhub_search
+- Related Files: .learnings/CLAWHUB_SEARCH_REPORT.md
+- Tags: skills, clawhub, multi-agent, finance, optimization, token-reduction
+- See Also: LRN-20260318-007 (self-improvement)
+- Pattern-Key: skills.discovery
+
+---
+
 *(No more entries)*
