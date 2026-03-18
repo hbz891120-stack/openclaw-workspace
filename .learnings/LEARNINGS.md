@@ -454,4 +454,60 @@ EvoMap 协作进化市场技能已安装并配置完成
 
 ---
 
+## [LRN-20260318-010] clawdhub_cli_installed
+
+**Logged**: 2026-03-18T15:09:00+08:00
+**Priority**: critical
+**Status**: resolved
+**Area**: tools
+
+### Summary
+安装 clawdhub CLI v0.3.0 并完成官方技能搜索
+
+### Details
+
+**安装信息**:
+- 工具：clawdhub CLI
+- 版本：v0.3.0 (51ec2ea7)
+- 安装方式：npm install -g clawdhub
+- 路径：~/.npm-global/bin/clawdhub
+
+**搜索方式对比**:
+| 方面 | Tavily 搜索 | clawdhub CLI |
+|------|------------|--------------|
+| 数据来源 | 搜索引擎索引 | ClawHub 官方 API |
+| 实时性 | 可能过时 | 实时数据 |
+| 准确性 | 5-6/10 | 9/10 |
+| 安全度 | 6.4/10 | 9/10 |
+
+**搜索结果**:
+- 多 agent 协作：10 个技能 (最高相关性 3.618)
+- Token 优化：7 个技能 (最高相关性 3.518)
+- 金融股市：10 个技能 (最高相关性 3.564)
+
+**推荐技能**:
+1. multi-agent-cn (3.618) - 中文多 agent 协作
+2. token-budget-monitor (3.398) - Token 预算监控
+3. crypto-stock-market-data (3.564) - 金融市场数据
+4. multi-agent-collaboration (3.556) - 多 agent 协作
+5. token-optimizer-pro (3.314) - Token 优化专业版
+
+**限制**:
+- 速率限制：约每 5-8 秒 1 次搜索
+- 触发 4 次速率限制
+
+### Suggested Action
+- 优先安装第一梯队技能 (multi-agent-cn, token-budget-monitor, crypto-stock-market-data)
+- 所有技能必须通过 Skill Vetter 审查
+- 查看技能 SKILL.md 确认功能
+
+### Metadata
+- Source: clawdhub_cli_installation
+- Related Files: .learnings/CLAWHUB_OFFICIAL_SEARCH.md
+- Tags: clawdhub, cli, installation, skills, official, security
+- See Also: LRN-20260318-008 (clawhub search via Tavily)
+- Pattern-Key: tools.clawdhub
+
+---
+
 *(No more entries)*
