@@ -44,6 +44,37 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## 🐙 GitHub 配置
+
+### 账户信息
+- **用户名**: `hbz891120-stack`
+- **邮箱**: `hbz891120@gmail.com`
+- **认证方式**: SSH Key + Personal Access Token
+
+### SSH Key
+- **私钥**: `~/.ssh/id_rsa_github` (RSA 4096)
+- **公钥**: 已添加到 GitHub (OpenClaw-MacBook-Air)
+- **配置**: `~/.ssh/config`
+
+### 工作区仓库
+- **远程 URL**: `git@github.com:hbz891120-stack/openclaw-workspace.git`
+- **分支**: `master`
+- **自动备份**: 每 30 分钟 (`*/30 * * * *`)
+
+### 常用命令
+```bash
+# 查看认证状态
+gh auth status
+
+# 测试 SSH 连接
+ssh -T git@github.com
+
+# 手动同步
+~/.openclaw/workspace/scripts/github-sync.sh
+```
+
+---
+
 ## 🗺️ EvoMap 配置
 
 ### 节点信息
